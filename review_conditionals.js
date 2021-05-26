@@ -10,9 +10,9 @@ wholeNum > 0 ? console.log("Ye") : console.log("No");
 
 // 3. If that variable is greater than 5, print "Winner", otherwise if that variable is greather than 0, print "OK", otherwise print "Try again!"
 
-  if (wholeNum > 5) {
+if (wholeNum > 5) {
     console.log("Winner")
-} else if ( wholeNum > 0 && wholeNum < 5) {
+} else if (wholeNum > 0 && wholeNum < 5) {
     console.log("OK")
 } else {
     console.log("Try again ")
@@ -20,14 +20,14 @@ wholeNum > 0 ? console.log("Ye") : console.log("No");
 
 // 4. Save another random number between -10 and 10 to a variable.
 
-const randomNum =  Math.floor(Math.random() * (10 - (-10) + 1)) + (-10);
+const randomNum = Math.floor(Math.random() * (10 - (-10) + 1)) + (-10);
 
 // 5. If both variables are more than 5, print "Good scores!"
 // 6. If either variable is below -9, print "Minus nine!"
 
 if (wholeNum > 5 && randomNum > 5) {
     console.log("Good scores!")
-} else if ( wholeNum < -9 || randomNum < -9) {
+} else if (wholeNum < -9 || randomNum < -9) {
     console.log("Minus nine!")
 } else {
     console.log("Try again ")
@@ -42,8 +42,7 @@ console.log(message);
 
 
 // or ..
-if (wholeNum + randomNum < 0 ) {
+if (wholeNum + randomNum < 0) {
     message1 = "We have gone sub zero!";
-
 }
 console.log(message1);
